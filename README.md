@@ -6,7 +6,7 @@ This was an exercise based on [Ilija Eftimov's excellent blog](http://eftimov.ne
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+[Available in Hex](https://hex.pm/packages/eight_ball_dj)! This package can be installed as:
 
   1. Add eight_ball to your list of dependencies in `mix.exs`:
 
