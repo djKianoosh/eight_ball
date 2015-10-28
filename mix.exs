@@ -3,7 +3,7 @@ defmodule EightBall.Mixfile do
 
   def project do
     [app: :eight_ball_dj,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -37,7 +37,7 @@ defmodule EightBall.Mixfile do
       maintainers: ["djKianoosh"],
       description: "Ask a question to the Magic Eight Ball",
       licenses: ["Whatever"],
-      links: %{"GitHub" => "https//github.com/djkianoosh/eight_ball"}
+      links: %{"GitHub" => "https://github.com/djkianoosh/eight_ball"}
     ]
   end
 end
