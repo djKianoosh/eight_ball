@@ -11,7 +11,7 @@ This was an exercise based on [Ilija Eftimov's excellent blog](http://eftimov.ne
   1. Add eight_ball to your list of dependencies in `mix.exs`:
 
         def deps do
-          [{:eight_ball_dj, "~> 0.0.1"}]
+          [{:eight_ball_dj, "~> 0.0.2"}]
         end
 
   2. Ensure eight_ball is started before your application:
