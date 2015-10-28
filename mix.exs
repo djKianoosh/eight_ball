@@ -2,7 +2,7 @@ defmodule EightBall.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :eight_ball,
+    [app: :eight_ball_dj,
      version: "0.0.1",
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
@@ -33,8 +33,9 @@ defmodule EightBall.Mixfile do
 
   defp package do
     [
-      files: ["lib", "mix.exs", "README", "LICENSE*"],
+      files: ["lib", "mix.exs", "README.md", "LICENSE*"],
       maintainers: ["djKianoosh"],
+      description: "Ask a question to the Magic Eight Ball",
       licenses: ["Whatever"],
       links: %{"GitHub" => "https//github.com/djkianoosh/eight_ball"}
     ]
